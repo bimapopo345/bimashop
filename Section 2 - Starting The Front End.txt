@@ -1,0 +1,70 @@
+--== 5. React Setup & Git Initialize -=-=
+
+Create React App : karena dokumentasi lengkap
+
+Vite : lebih baik pake ini , jadi cepat 
+
+
+-=-= -file structure :
+
+1. frontend
+
+>> React UI & a;ll frontend (Redux, bootstrap, dll)
+
+2. backend
+
+>> server-side () express. node, models, controllers & Routes
+
+
+-=-= perintah :
+
+npx create-react-app frontend
+
+code .
+
+cd frontend
+
+npm start
+
+-==- hapus file yg ga penting
+
+- logo.svg
+
+- App.test.js
+
+- App.css
+
+>> buka file App.js : hapus semua codingan
+
+ketik : rafce
+
+>> buka public > index.html >> ganti title (untuk ganti nama navigasi)
+
+>> ketik di terminal : ls -a 
+
+>> akan memunculkan semua file yang ada termasuk yg tersembunyi (hidden)
+
+- Hapus semua file .git
+
+rm -rf .git >> rm -Recurse -Force .git
+
+
+>> pindah .gitignore ke depan root
+
+-=-= inisialisasi git
+
+git init
+
+ls -a >> ls -Force
+
+buka github : untuk diupload
+
+git add .
+
+git commit -m 'Initial Commit'
+
+git remote add origin ...
+
+git branch -M main
+
+git push -u origin main
