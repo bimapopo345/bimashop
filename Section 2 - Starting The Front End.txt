@@ -68,3 +68,50 @@ git remote add origin ...
 git branch -M main
 
 git push -u origin main
+
+
+
+
+
+
+
+-==-= 6. Header & Footer Componenets -=-=-
+
+pake react icon, fontawesome, dll.
+
+ingat L kita harus ada 2 terminal
+
+pastikan sudah di terminal folder frontend !!!
+
+-- perintah
+
+npm i react-bootstrap bootstrap react-icons
+
+buka index.js
+
+>> masukkan codingan : import "bootstrap/dist/css/bootstrap.min.css";S
+
+
+
+-=-=- buat folder component
+
+- buat file : Header.jsx
+
+>> ketikkan : rafce
+
+
+
+- buat file : Footer.jsx
+
+
+
+
+-==-=- 7. Custom Bootstrap Theme -==-=
+
+
+
+-=-=- 9. Implement React Router -=-=
+
+>> di folder frontend
+
+npm i react-router-dom
